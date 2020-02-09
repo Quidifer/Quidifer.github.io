@@ -1,0 +1,57 @@
+body {
+    /* background-color: #141414; */
+    background-color: #eaeaea;
+
+}
+* {
+    margin: 0;
+}
+
+#myVideo {
+
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    padding: 0px;
+    filter: invert(100%);
+    border-style: hidden;
+    /* animation-name: invert;
+    animation-delay: 5.5s;
+    animation-fill-mode: forwards;
+    animation-duration: 0s; */
+}
+/* @keyframes invert {
+    0% { filter: invert(100%) }
+    100% { filter: invert(0%) }
+} */
+
+#load {
+    top: 30%;
+
+    width: 25%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#darkPage span {
+    position: fixed;
+    display: block;
+    /* background: #141414; */
+    background: #151515;
+    width: 100%;
+    height: 100%;
+    right: 100%;
+
+    animation-name: dropdown;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+    animation-duration: 1s;
+}
+@keyframes dropdown {
+    0% { right: 100% }
+    100% { right: 0% }
+}

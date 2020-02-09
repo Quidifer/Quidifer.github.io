@@ -1,0 +1,139 @@
+#sidebar {
+    position: absolute;
+    height: 100%;
+    width: 210px;
+    left: 5%;
+}
+
+#sidebar span {
+    display: block;
+    position: relative;
+    bottom: 100%;
+    /* right: 50%; */
+    /* background: #141414; */
+    background: #333;
+    height: 100%;
+    width: 100%;
+
+    animation-name: drop;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+    animation-duration: 1s;
+}
+@keyframes drop {
+    0% { bottom: 100% }
+    100% { bottom: 0% }
+}
+
+#profile {
+    position:inherit;
+    visibility: visible;
+    width: 70%;
+    bottom: 150%;
+
+    right: 0;
+    left: 0;
+    margin: auto;
+
+    animation-name: dropprofile;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+    animation-duration: 1s;
+}
+@keyframes dropprofile {
+    0% { bottom: 150% }
+    100% { bottom: 97% }
+}
+
+#pic {
+    position: inherit;
+    width: 70%;
+    border-radius: 50%;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#profile h1 {
+    position: inherit;
+    text-align: center;
+    color: #ccc;
+    font-size: 14px;
+    background-color: initial;
+    margin-top: 100px;
+
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+
+
+#bottom {
+	position: fixed;
+    bottom: 150%;
+
+    animation-name: dropfooter;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+    animation-duration: 1s;
+}
+@keyframes dropfooter {
+    0% { bottom: 150% }
+    100% { bottom: 5% }
+}
+
+#socials {
+	border-bottom-style: ridge;
+	border-width: thin;
+	border-color: white;
+}
+
+.instagram{
+	width: 30px;
+}
+.instagram:hover {
+	width: 40px;
+}
+
+.facebook {
+	width: 40px;
+	padding-left: 13px;
+	/* padding: 5px; */
+}
+.facebook:hover {
+	width: 50px;
+	padding-left: 3px;
+}
+
+.linkedin {
+	postion: fixed;
+	width: 20.5px;
+	padding-bottom: 4.55px;
+	padding-left: 9px;
+}
+.linkedin:hover {
+	width: 30px;
+}
+
+#phone {
+	position: relative;
+	color: #ccc;
+	padding: 7px;
+	padding-left: 4px;
+	text-align: center;
+	font-family: Arial;
+	font-size: 5;
+}
+
+.email {
+	position: relative;
+	color: #ccc;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-family: Arial;
+	font-size: 12px;
+}
