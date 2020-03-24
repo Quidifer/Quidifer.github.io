@@ -2,18 +2,18 @@
     position: absolute;
     height: 100%;
     width: 210px;
-    left: 5%;
+    left: 75px;
 }
 
 #sidebar span {
     display: block;
-    position: relative;
+    position: fixed;
     bottom: 100%;
     /* right: 50%; */
     /* background: #141414; */
     background: #333;
     height: 100%;
-    width: 100%;
+    width: 210px;
 
     animation-name: drop;
     animation-fill-mode: forwards;
@@ -26,7 +26,7 @@
 }
 
 #profile {
-    position:inherit;
+    position: inherit;
     visibility: visible;
     width: 70%;
     bottom: 150%;
@@ -46,29 +46,61 @@
 }
 
 #pic {
-    position: inherit;
-    width: 70%;
+    position: fixed;
+    width: 100px;
     border-radius: 50%;
-    right: 0;
-    left: 0;
-    margin-left: auto;
-    margin-right: auto;
+    left: 75px;
+    margin-left: 55px;
+    margin-right: 55px;
+    vertical-align: middle;
 }
 #profile h1 {
-    position: inherit;
-    text-align: center;
+    position: fixed;
+    font-family: none;
     color: #ccc;
     font-size: 14px;
-    background-color: initial;
-    margin-top: 100px;
+    /* background-color: initial; */
+    margin-top: 110px;
+    vertical-align: middle;
+    margin-left: 10px;
+    /* margin-right: 1px; */
 
-    right: 0;
-    left: 0;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10px;
+    /* padding-top: 10px; */
 }
+#sideinfo {
+    position: fixed;
+    width: 210px;
+    margin-top: 160px;
+    left: 75px;
+}
+#sideinfo ul {
+    padding-left: 0px;
+}
+#sideinfo ul li {
+    color: #ccc;
+    padding-top: 5px;
+    padding-bottom: 5px;
 
+    padding-left: 25px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    list-style-type: none;
+
+	font-size: 18px;
+    font-family: system-ui;
+    font-weight:lighter;
+}
+a {
+    text-decoration: none;
+    color: #ccc;
+}
+a:visited {
+    text-decoration: none;
+    color: #ccc;
+}
+a:hover {
+    font-weight: bold;
+}
 
 
 #bottom {

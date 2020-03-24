@@ -7,6 +7,8 @@
 	<meta http-equiv="X-UA-Compatible" content= "ie=edge">
 	<link rel="stylesheet" href="caligraphy.css">
     <link rel="stylesheet" href="page.css">
+	<link rel="stylesheet" href="information.css">
+	<script src="AboutMe.js"></script>
 
 </head>
 
@@ -22,12 +24,65 @@
 
 <div id = "darkPage" >
     <span></span>
+	<div id = "textBox">
+		<div id = "information">
+			<h1 id = "About" >Fun Projects</h1>
+			<p> <b>Introduction: </b>I am currently a computer science student at UC Riverside. I am also a member of
+				<a href="https://www.highlanderracing.org/" style= "color: #fff">formula SAE</a>,an on campus organization
+				that builds formula electric race cars. The experience that I have currently gained from this club has given me a
+				large amount of exposure to microcontrollers. To date, I have taken two computer science
+				courses at UCR, which both dive into the the interworkings of c++. I will be posting the majority of my coding projects on this
+				page. Most of which will revolve around javascript, python, c++, and microcontrollers. Feel free to message me if you have
+				any questions regarding any of my projects. Click on a project picture to be taken to the project.
+			</p>
+			<div class="Project">
+				<div id="Snake">
+					<div class="ProjectName"> <h2>Snake</h2> <p>3/15/20</p> </div>
+					<a href="snake/index.html"><img id="snakeImg" src="../images/snake.png" align="left"></img></a>
+					<p><br>This was my first object oriented javascript project. Using the framework p5.js, the program creates a canvas with a snake
+						and food object. When the snake eats the food object, I call food.eat(), which teleports the food to a random
+						location on the canvas. The snake object has a member variable, vector data structure. When the snake eats the food,
+						I add 10 rectangles to that vector. Every frame, each rectangle positions itself in the location of the previous rectangle.
+						I decided to have overlaping rectangle objects, so that I could create a smoothness the snake's animation. Click on the
+						picture of the snake to be taken the project.
+					</p>
+				</div>
+			</div>
+			<div class="Project">
+				<div id="Fractals">
+					<div> <h2 align="left">Fractals <small style="font-size: 17px">-a Visualization of Recursion</small></h2> <p>3/24/20</p> </div>
+					<a href="Fractals/index.html"><img id="fractalImg" src="../images/fractals.png" align="left"></img></a>
+					<p><br>This project takes a visual approach to recursion. As a student who just took an in depth look into recursion, it was quite intriguing to
+						visualize that technique through a javascript project. The program utilizes the p5.js framework. The entire program revolves around the
+						branch() function, which recusively calls itself in order to make the fractal images. The function takes in the parameter, length, which stroes the
+						size of the branch. Length decreases after each implementation of the function. The banch() function also utilizes the saving
+						and moving of the origin, since the program needs to dynamically draw lines at specific rotations and positions. The user is given the option
+						to change the angle between branches, the branch length, the ratio at which each branch length decreases, and the length of the first initial branch. The sliders
+						provided create an interface for the user to create their own unique fractal images. The "Trace" checkbox makes the program trace previous fractal images,
+						and allows the user to combine many different images to create one dynamic sculpture.
+
+					</p>
+				</div>
+			</div>
+
+			<!-- <p> <b>Extracurriculars: </b>Whenever given free time, I enjoy
+			</p> -->
+		</div>
+	</div>
 </div>
 <div id = "sidebar">
     <span></span>
 	<div id= "profile">
 		<img id="pic" alt="christophermouri" src= "https://scontent-lax3-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/65930205_1100574296803814_3993408999317715478_n.jpg?_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_cat=102&oh=cb43fefa3e02920c1e4fdc38f50365ee&oe=5E779915" ></img>
 		<h1>@christophermouri</h1>
+		<!-- <p id="Home">Home</p> -->
+		<div id="sideinfo">
+			<ul>
+				<li><a href="../index.htm">Home</a></li>
+				<li><a href="mailto:cvurb001@ucr.edu">
+					Contact</a></li>
+			</ul>
+		</div>
 		<div id = "bottom">
 			<div id = "socials">
 				<tr><a href = "https://www.facebook.com/christopher.mouri"><img class = "facebook" src = "../images/facebook-logo.png" alt ="facebook" ></img></a> </tr>

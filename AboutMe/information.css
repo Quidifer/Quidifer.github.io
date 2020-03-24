@@ -1,0 +1,80 @@
+#About {
+    position: relative;
+    color: #eee;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+body {
+    color: #ccc;
+    font-family: system-ui;
+}
+
+#information {
+    position: relative;
+    height: auto;
+    /* width: 67%; */
+    color: #ccc;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-left: 300px;
+    padding: 30px;
+    padding-top: 10px;
+
+}
+
+.Project {
+    border-color: #999;
+    border-style: solid;
+    border-width: thin;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    padding: 30px;
+    border-radius: 5px;
+    min-width: 200px;
+}
+
+#Snake {
+    min-height: 200px;
+}
+
+#snakeImg {
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 3px;
+    height: 187px;
+    border-color: #999;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 3px;
+}
+#snakeImg:hover {
+    border-width: 2px;
+    margin-right: 13px;
+    margin-bottom: 1px;
+}
+
+.ProjectName {
+    display: inline-block;
+}
+
+#Fractals {
+    min-height: 270px;
+}
+#fractalImg {
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 3px;
+    height: 200px;
+    border-color: #999;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 3px;
+}
+#fractalImg:hover {
+    border-width: 2px;
+    margin-right: 13px;
+    margin-bottom: 1px;
+}

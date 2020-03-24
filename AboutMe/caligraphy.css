@@ -37,13 +37,13 @@ body {
     margin: auto;
 }
 
-#darkPage span {
-    position: fixed;
+#darkPage {
+    position: absolute;
     display: block;
     /* background: #141414; */
-    background: #151515;
+    background: #202020;
     width: 100%;
-    height: 100%;
+    height: 1000%;
     right: 100%;
 
     animation-name: dropdown;
