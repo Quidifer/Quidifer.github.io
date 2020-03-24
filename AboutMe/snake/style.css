@@ -1,0 +1,42 @@
+html, body {
+    margin: 0;
+}
+
+html {
+    background-color: black;
+}
+
+body {
+    /* margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    align-items: center; */
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    margin-top: 70px;
+    margin-bottom: 0px;
+    color: #ccc;
+
+    font-weight: lighter;
+}
+
+p {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+
+}
+#highscore {
+     margin-top: 10px;
+}
+
+#div1 {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
