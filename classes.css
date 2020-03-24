@@ -186,11 +186,15 @@
 
 a:link {
 	text-decoration: none;
+	color: #ccc;
 }
 
 a:visited {
 	text-decoration: none;
 	color: #ccc;
+}
+a:hover {
+	font-weight: bold;
 }
 
 
